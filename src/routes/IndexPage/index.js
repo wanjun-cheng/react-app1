@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'dva';
 import Layout from '../../layouts/Layout';
+
 import styles from './IndexPage.css';
 
 

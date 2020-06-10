@@ -1,13 +1,16 @@
+import React from 'react';
+import { connect } from 'dva';
 import Layout from '../../layouts/Layout';
 
 
-function Page01() {
+function page01() {
   return (
     <Layout>
       <div>
-        这里是 page01
+        page01
       </div>
     </Layout>
   );
 }
-export default Page01;
+
+export default connect()(page01);

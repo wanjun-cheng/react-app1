@@ -51,14 +51,7 @@ function BasicLayout({
           <div className={styles.site_layout_background} style={{ padding: 24, textAlign: 'center' }}>
             {children}
             {/* <Switch> */}
-            {/* <Route path="/page01" exact render={() => {
-                console.log(222)
-                return (
-                  <div>
-                    这里是 page01 主页
-                  </div>
-                )
-              }} /> */}
+            {/* <Route path="/page01" exact component={Page01}/> */}
             {/* <Redirect to="/page01" /> */}
             {/* </Switch> */}
           </div>

@@ -1,7 +1,6 @@
 import Layout from '../../layouts/Layout';
 
 
-
 function Page02() {
   return (
     <Layout>
