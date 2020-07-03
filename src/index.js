@@ -18,6 +18,8 @@ function importAll(r) {
 
 // 3. Model
 importAll(require.context('./layouts', true, /model\.js$/));
+importAll(require.context('./routes', true, /model\.js$/));
+importAll(require.context('./models', true, /\.js$/));
 // app.model(require('./models/example').default);
 
 // 4. Router

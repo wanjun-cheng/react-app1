@@ -34,14 +34,17 @@ function BasicLayout({
           <Menu.Item key="1" icon={<UserOutlined />}>
             <Link to='/home'>nav home</Link>
           </Menu.Item>
-          <Menu.Item key="2" icon={<VideoCameraOutlined />}>
+          <Menu.Item key="2" icon={<UploadOutlined />}>
+            <Link to='/interview'>nav interview</Link>
+          </Menu.Item>
+          <Menu.Item key="3" icon={<VideoCameraOutlined />}>
             <Link to='/page01'>nav 1</Link>
           </Menu.Item>
-          <Menu.Item key="3" icon={<UploadOutlined />}>
+          <Menu.Item key="4" icon={<BarChartOutlined />}>
             <Link to='/page02'>nav 2</Link>
           </Menu.Item>
-          <Menu.Item key="4" icon={<BarChartOutlined />}>
-            nav 3
+          <Menu.Item key="5" icon={<BarChartOutlined />}>
+            <Link to='/page03'>nav 3</Link>
           </Menu.Item>
         </Menu>
       </Sider>
